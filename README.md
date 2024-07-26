@@ -8,10 +8,14 @@
 * I've been using the `xfce` `glibc` version of Void linux, and this setup is shaped around that
     * that doesn't mean that some of the solutions can't be applied to other systems to, but they may not work
 
+* for the most part, this setup should be self explanatory by reading the titles
+
+<details>
+<summary>quick start tips</summary>
 * to use this setup repository efficiently, I recommend first looking at the packages, pick what you want/ need and then look to the specific installations
     * if you're anything like me, and have good vision, but don't know how to use it, then I recommend hitting `ctrl` + `f` and search for the words `xbps`, and when you're done looking at packages, search `specific`
         * if you're even more like me, and a bit used to windows behaviour, you might want to have a look at the `xfce settings` part before you start with anything else
-            * the rest should be self explanatory by reading the titles, good luck and have fun setting up void linux
+</details>
 
 <details>
 <summary>Expected questions</summary>
