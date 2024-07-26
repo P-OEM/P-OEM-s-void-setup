@@ -22,8 +22,10 @@
 
 * why make it public?
     * I've seen a lot of people have some of the same issues as me, so it seems like a good way to help out
+    
 * what are you keeping away from us in your private repo?
     * I'm sorry, I'm keeping my Neovim setup, wallpaper, theme and unfinished branches to myself
+
 * is it advanced?
     * no it's not, as I'm not a very advanced linux user. this guide will mostly help out if you happen to be completely stuck on something simple, like getting steam to run and get rid of that pesky can't find `libc.so.6` issue
 </details>
