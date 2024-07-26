@@ -51,7 +51,7 @@
 <summary>Specific tool setup README file links</summary>
 
 ## [Brightnessctl default screenbrightness setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
-## [Bluetooth setup]()
+## [Bluetooth setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/bluetooth)
 ## [Themes setup]()
 ## [Background image setup]()
 ## [Neovim setup]()
