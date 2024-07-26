@@ -56,7 +56,7 @@
 ## [Background image setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/background-image)
 ## [Neovim setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/neovim)
 ## [LibreOffice setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/libreoffice)
-## [Thunderbird setup]()
+## [Thunderbird setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/thunderbird)
 ## [Discord setup]()
 ## [Skype setup]()
 ## [Veloren setup]()
