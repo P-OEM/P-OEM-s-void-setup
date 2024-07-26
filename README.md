@@ -53,7 +53,7 @@
 ## [Brightnessctl default screenbrightness setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
 ## [Bluetooth setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/bluetooth)
 ## [Themes setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/themes)
-## [Background image setup]()
+## [Background image setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/background-image)
 ## [Neovim setup]()
 ## [LibreOffice setup]()
 ## [Thunderbird setup]()
