@@ -54,7 +54,7 @@
 ## [Bluetooth setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/bluetooth)
 ## [Themes setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/themes)
 ## [Background image setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/background-image)
-## [Neovim setup]()
+## [Neovim setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/neovim)
 ## [LibreOffice setup]()
 ## [Thunderbird setup]()
 ## [Discord setup]()
