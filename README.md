@@ -11,7 +11,7 @@
 * for the most part, this setup should be self explanatory by reading the titles
 
 <details>
-<summary>quick start tips</summary>
+<summary>quick start</summary>
 
 * to use this setup repository efficiently, I recommend first looking at the packages, pick what you want/ need and then look to the `Specific too setup README file links`
     * if you're anything like me, and have good vision, but don't know how to use it, then I recommend hitting `ctrl` + `f` and search for the words `xbps`, and when you're done looking at packages, search `specific`
