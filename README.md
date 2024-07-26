@@ -1,4 +1,42 @@
-# void-linux-setup
+# gamingtruble's void linux setup
+
+## About this setup
+* it is a public version of my personal setup, meaning that it's not the same, but it contains a lot of smaller installation guides, and packages I've installed to shape my system to my needs
+* this does not have an install guide (yet). for that I recomend the official installation guide [here](https://docs.voidlinux.org/installation/index.html) or this youtube video [here](https://youtu.be/wiP38mNXujE), the same youtuber have an installation guide for the musl library version as well
+* while this isn't an install guide, this might save you some time on the step before installing the system, if you're unsure about the mounting points at filesystems
+
+<details>
+<summary>Filesystems install step</summary>
+
+* Filesystems
+    * go to /dev/sda1
+        * create vfat
+            * mount at /boot/efi
+        * all you need to do is to go to `/dev/sda2`
+            * next you will pick the filesystem
+                * if you want dropbox, pick ext4
+                * if you do not care for locally installed dropbox, and have an ssd, consider `f2fs`
+                * set the mounting point to `/`
+</details>
+
+* I've been using the `xfce` `glibc` version of Void linux, and this setup is shaped around that
+    * that doesn't mean that some of the solutions can't be applied to other systems to, but they may not work
+
+* to use this setup repository efficiently, I recommend first looking at the packages, pick what you want/ need and then look to the specific installations
+    * if you're anything like me, and have good vision, but don't know how to use it, then I recommend hitting `ctrl` + `f` and search for the words `xbps`, and when you're done looking at packages, search `specific`
+        * if you're even more like me, and a bit used to windows behaviour, you might want to have a look at the `xfce settings` part before you start with anything else
+            * the rest should be self explanatory by reading the titles, good luck and have fun setting up void linux
+
+<details>
+<summary>Expected questions</summary>
+
+## why make it public?
+### I've seen a lot of people have some of the same issues as me, so it seems like a good way to help out
+## what are you keeping away from us in your private repo?
+### I'm sorry, I'm keeping my Neovim setup, wallpaper, theme and unfinished branches to myself
+## is it advanced?
+### no it's not, as I'm not a very advanced linux user. this guide will mostly help out if you happen to be completely stuck on something simple, like getting steam to run and get rid of that pesky can't find `libc.so.6` issue
+</details>
 
 ## titles with links:
 <details open> 
