@@ -142,7 +142,7 @@
 <details>
 <summary>helpfull</summary>
 
-* void-repo-nonfree (allow nonfree packages on the system)
+* void-repo-nonfree (allow nonfree packages on the system, needed for steam)
 * void-repo-multilib (add 32 bit packages, needed for steam)
 * bash-completion
 * xkill
