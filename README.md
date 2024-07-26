@@ -58,7 +58,7 @@
 ## [LibreOffice setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/libreoffice)
 ## [Thunderbird setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/thunderbird)
 ## [Discord setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/discord)
-## [Skype setup]()
+## [Skype setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/skype)
 ## [Veloren setup]()
 </details>
 
