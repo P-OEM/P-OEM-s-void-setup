@@ -1,7 +1,7 @@
 ### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/main)
 
 # Themes
-### this branch contains a simple guide and some files for xfce4 desktop environment
+### this branch contains a simple guide for adding themes to a xfce4 desktop environment
 
 ## [Theme introduction](#introduction)
 
