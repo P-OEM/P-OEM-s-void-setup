@@ -2,22 +2,8 @@
 
 ## About this setup
 * it is a public version of my personal setup, meaning that it's not the same, but it contains a lot of smaller installation guides, and packages I've installed to shape my system to my needs
+
 * this does not have an install guide (yet). for that I recomend the official installation guide [here](https://docs.voidlinux.org/installation/index.html) or this youtube video [here](https://youtu.be/wiP38mNXujE), the same youtuber have an installation guide for the musl library version as well
-* while this isn't an install guide, this might save you some time on the step before installing the system, if you're unsure about the mounting points at filesystems
-
-<details>
-<summary>Filesystems install step</summary>
-
-* Filesystems
-    * go to /dev/sda1
-        * create vfat
-            * mount at /boot/efi
-        * all you need to do is to go to `/dev/sda2`
-            * next you will pick the filesystem
-                * if you want dropbox, pick ext4
-                * if you do not care for locally installed dropbox, and have an ssd, consider `f2fs`
-                * set the mounting point to `/`
-</details>
 
 * I've been using the `xfce` `glibc` version of Void linux, and this setup is shaped around that
     * that doesn't mean that some of the solutions can't be applied to other systems to, but they may not work
