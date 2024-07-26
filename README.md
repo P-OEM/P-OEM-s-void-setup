@@ -50,7 +50,7 @@
 <details>
 <summary>Specific tool setup README file links</summary>
 
-## [Brightnessctl default screenbrightness setup]()
+## [Brightnessctl default screenbrightness setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
 ## [Bluetooth setup]()
 ## [Themes setup]()
 ## [Background image setup]()
