@@ -44,7 +44,7 @@
 <details>
 <summary>General setup README file links</summary>
 
-## [Launcher setup]()
+## [Launcher setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/launcher)
 </details>
 
 <details>
