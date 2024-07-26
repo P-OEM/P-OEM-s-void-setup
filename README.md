@@ -1,286 +1,49 @@
-# gamingtruble's void linux setup
+### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/main)
 
-## About this setup
-* it is a public version of my personal setup, meaning that it's not the same, but it contains a lot of smaller installation guides, and packages I've installed to shape my system to my needs
+# Bluetooth setup
 
-* this does not have an install guide (yet). for that I recomend the official installation guide [here](https://docs.voidlinux.org/installation/index.html) or this youtube video [here](https://youtu.be/wiP38mNXujE), the same youtuber have an installation guide for the musl library version as well
+### this branch contain a simple guide for setting up bluetooth in a xfce, void linux system, with bluez and blueman
 
-* I've been using the `xfce` `glibc` version of Void linux, and this setup is shaped around that
-    * that doesn't mean that some of the solutions can't be applied to other systems to, but they may not work
+## [Bluetooth introduction](#introduction)
+## [Bluez setup with Runit](#bluez-setup)
+## [Bluman start](#blueman)
+## [Blue-man do I have to do this part?](#disable-the-blueman-bluetooth-startup)
 
-* for the most part, this setup should be self explanatory by reading the titles
+## Introduction
+* there are some different alternatives available for setting up bluetooth on a void system, but in this guide, the tools will be `bluez` with `blueman`
+    * `bluez`
+        * `bluez` contain bluetooth tools and daemons
+    * `blueman`
+        * `blueman` is a bluetooth manager, that also work together with `bluez`
+        * `blueman` bring a nice graphical interface for the user
+* for this guide it's expected that both blues package, and `blueman` package is installed
+* here are two links for some resources
+    * here's a video from youtube for how to do this setup on an Arch system [youtube video](https://youtu.be/b329S-LFV0k)
+        * keep in mind that the path `/etc/runit/sv` will be `etc/sv` on the void system
+    * here is the link documenting the sv path [services and daemons](https://docs.voidlinux.org/config/services/index.html) (void documentation)
+        * look for the `Enabling Services` title
 
-<details>
-<summary>quick start</summary>
+## Bluez setup
+* `bluez` come with a daemon that `Runit` (the init service), will have to start when the operating system starts
+* this can be done by linking it to the runsvdir
+    * paste this into the terminal `ln -s /etc/sv/bluetoothd /etc/runit/runsvdir/default`
+## Blueman
+* blueman does not really need any setup
+    * type:
+        * `blueman-manager`
+    * into the terminal and hit enter
+        * say yes to automatic bluetooth enabling and you're good to go...
 
-* to use this setup repository efficiently, I recommend first looking at the packages, pick what you want/ need and then look to the `Specific too setup README file links`
-    * if you're anything like me, and have good vision, but don't know how to use it, then I recommend hitting `ctrl` + `f` and search for the words `xbps`, and when you're done looking at packages, search `specific`
-        * if you're even more like me, and a bit used to windows behaviour, you might want to have a look at the `xfce settings` part before you move on to the `Specific too setup README file links`
-</details>
-
-<details>
-<summary>Expected questions</summary>
-
-* why make it public?
-    * I've seen a lot of people have some of the same issues as me, so it seems like a good way to help out
-    
-* what are you keeping away from us in your private repo?
-    * I'm sorry, I'm keeping my Neovim setup, wallpaper, theme and unfinished branches to myself
-
-* is it advanced?
-    * no it's not, as I'm not a very advanced linux user. this guide will mostly help out if you happen to be completely stuck on something simple, like getting steam to run and get rid of that pesky can't find `libc.so.6` issue
-</details>
-
-## titles with links:
-<details open> 
-<summary>Local branch titles</summary>
-
-## [xfce desktop environment settings](#xfce-settings)
-## [xbps package manager packages](#xbps-packages)
-## [npm package manager packages](#npm-packages)
-## [gem package manager packages](#gem-packages)
-</details>
-
-<details>
-<summary>General setup README file links</summary>
-
-## [Launcher setup]()
-</details>
-
-<details>
-<summary>Specific tool setup README file links</summary>
-
-## [Brightnessctl default screenbrightness setup]()
-## [Bluetooth setup]()
-## [Themes setup]()
-## [Background image setup]()
-## [Neovim setup]()
-## [LibreOffice setup]()
-## [Thunderbird setup]()
-## [Discord setup]()
-## [Skype setup]()
-## [Veloren setup]()
-</details>
-
-## xfce settings
-### This section cover settings under settings manager, the settings are grouped under their respectable category title
-<details>
-<summary>Appearance</summary>
-
-* Style  
-    * Fantasma-Solid (require theme)
-* Icons
-    * candy-icons (require icon themes)
-* Fonts   
-    * Sans Regular
-        * Size = 11
-    * Sans Monospace Regular
-        * Size = 11
-</details>
-
-<details>
-<summary>WindowManager</summary>
-
-* Keyboard
-    * Maximize window = f11
-    * Toggle fullscreen = Ctrl+f11
-    * Move window to left workspace = Shift+Ctrl+Alt+Left
-    * Move window to right workspace = Shift+Ctrl+Alt+right
-    * Tile window to the top = Super+Up
-    * Tile window to the bottom = Super+Down
-    * Tile window to the left = Super+Left
-    * Tile window to the right = Super+Right
-    * Tile window to the top-left = Super+H
-    * Tile window to the top-right = Super+K
-    * Tile window to the bottom-left = Super+J
-    * Tile window to the bottom-right = Super+L
-</details>
-
-<details>
-<summary>WindowManager Tweaks</summary>
-
-* Accessibility
-    * Automatically tile windows when moving toward the screen edge = on
-</details>
-
-<details>
-<summary>Terminal Preferences</summary>
-
-* Appearance
-    * Font
-        * Terminus Bold 14
-    * Background
-        * Transparent Background
-            * Opacity = 0.70
-</details>
-
-<details>
-<summary>Mouse and Touchpad</summary>
-
-* Devices
-    * Touchpad
-        * Tap touchpad to click = off
-* Theme
-    * ArcAurora Cursors (require pointer theme)
-</details>
-
-<details>
-<summary>Keyboard</summary>
-
-* Application Shortcuts
-    * xkill = Ctrl+Escape
-</details>
-
-## xbps packages
-<details>
-<summary>funny packages</summary>
-
-* sl
-* cmatrix
-</details>
-
-<details>
-<summary>helpfull</summary>
-
-* void-repo-nonfree (allow nonfree packages on the system)
-* void-repo-multilib (add 32 bit packages, needed for steam)
-* bash-completion
-* xkill
-* brightnessctl
-* xreader (document viewer, pdf)
-* screenFetch
-* xfce4-screenshooter
-* noto-fonts-emoji
-* ttf-ubuntu-font-family
-* gnome-disk-utility
-* galculator
-</details>
-
-<details>
-<summary>zip packages</summary>
-
-* thunar-archive-plugin
-* xarchiver
-* unzip
-* xz
-</details>
-
-<details>
-<summary>bluetooth packages</summary>
-
-* bluez
-* blueman
-</details>
-
-<details>
-<summary>e-mail</summary>
-
-* thunderbird
-</details>
-
-<details>
-<summary>office packages</summary>
-
-* libreoffice
-* libreoffice-writer
-* libreoffice-impress
-* libreoffice-calc
-* libreoffice-math
-* libreoffice-base
-* libreoffice-i18n-en
-* libreoffice-i18n-nb
-</details>
-
-<details>
-<summary>graphics packages</summary>
-
-* mesa-vulkan-intel (works for cpu graphics)
-* mesa-vulkan-radeon (works for amd graphics card)
-* gimp
-* blender
-* krita
-* kdenlive
-</details>
-
-<details>
-<summary>book library packages</summary>
-
-* calibre
-</details>
-
-<details>
-<summary>programming packages</summary>
-
-* git
-* github-cli
-* curl
-* neovim
-* gcc
-* g++
-* make
-* cmake
-* ruby
-* ruby-devel
-* pnpm
-</details>
-
-<details>
-<summary>Language servers</summary>
-
-* clang
-* clang-tools-extra
-* lua-language-server
-</details>
-
-<details>
-<summary>voice chat</summary>
-
-* skype
-</details>
-
-<details>
-<summary>games</summary>
-
-* dwarffortress
-* minetest
-* supertux2
-* supertuxkart
-</details>
-
-<details>
-<summary>steam</summary>
-
-* steam
-### open source drivers (mesa drivers)
-* libgcc-32bit 
-* libstdc++-32bit
-* libdrm-32bit
-* libglvnd-32bit
-* mesa-dri-32bit
-### more information ([here](https://wiki.voidlinux.org/voidlinux_en_all_2021-04/A/Steam))
-</details>
-
-## npm packages
-* require npm package installed
-* for this package manager commands are shown
-
-<details>
-<summary>Typescript Language Server</summary>
-
-
-* `sudo npm install -g typescript-language-server typescript`
-</details>
-
-## gem packages
-* require ruby and the ruby devel package installed (the ruby package contain the gem package as well)
-* for this package manager commands are shown
-
-<details>
-<summary>Ruby gem packages</summary>
-
-* `gem install solargraph` (ruby language server)
-</details>
-
-* after this installation, you probably need to add the user directory to the system path
-    * this can be done by piping an `echo` command of the path into your users home directory, then to `.bashr` like this
-        * `echo 'export PATH=$PATH:/add/the/path/that/the/installation/says/is/missing/from/the/path/here' >> ~/.bashrc`
+## Disable the blueman bluetooth startup
+* this is actually simple, but it's not intuitive
+* now go to:
+    * settings manager (settings)
+        * Session and startup
+            * Application Autostart
+                * `+Add`
+                * then fill inn and pick
+                    * Name = `bluetooth disabler`
+                    * Description = `disable blueman autostart of bluetooth`
+                    * Command = `bluetoothctl power off`
+                    * Trigger = `on login`
+                        * then click ok and reboot to see that bluetooth no longer is on when you start
