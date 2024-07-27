@@ -59,7 +59,7 @@
 ## [Thunderbird setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/thunderbird)
 ## [Discord setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/discord)
 ## [Skype setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/skype)
-## [Veloren setup]()
+## [Veloren setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/veloren)
 </details>
 
 ## xfce settings
