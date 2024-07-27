@@ -67,10 +67,6 @@
 <details>
 <summary>Appearance</summary>
 
-* Style  
-    * Fantasma-Solid (require theme)
-* Icons
-    * candy-icons (require icon themes)
 * Fonts   
     * Sans Regular
         * Size = 11
