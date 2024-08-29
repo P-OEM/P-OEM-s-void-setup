@@ -44,7 +44,7 @@
 </details>
 
 ## xfce settings
-### This section cover settings under settings manager, the settings are grouped under their respectable category title
+### This section cover settings under settings manager, the settings are grouped under their category title
 <details>
 <summary>Appearance</summary>
 
