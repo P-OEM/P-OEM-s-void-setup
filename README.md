@@ -132,6 +132,12 @@
 </details>
 
 <details>
+<summary>security</summary>
+
+* apparmor
+</details>
+
+<details>
 <summary>zip packages</summary>
 
 * thunar-archive-plugin
