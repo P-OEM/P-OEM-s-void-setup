@@ -8,28 +8,7 @@
 * I've been using the `xfce` `glibc` version of Void linux, and this setup is shaped around that
     * that doesn't mean that some of the solutions can't be applied to other systems to, but they may not work
 
-* for the most part, this setup should be self explanatory by reading the titles
-
-<details>
-<summary>quick start</summary>
-
-* to use this setup repository efficiently, I recommend first looking at the packages, pick what you want/ need and then look to the `Specific too setup README file links`
-    * if you're anything like me, and have good vision, but don't know how to use it, then I recommend hitting `ctrl` + `f` and search for the words `xbps`, and when you're done looking at packages, search `specific`
-        * if you're even more like me, and a bit used to windows behaviour, you might want to have a look at the `xfce settings` part before you move on to the `Specific too setup README file links`
-</details>
-
-<details>
-<summary>Expected questions</summary>
-
-* why make it public?
-    * I've seen a lot of people have some of the same issues as me, so it seems like a good way to help out
-    
-* what are you keeping away from us in your private repo?
-    * I'm sorry, I'm keeping my Neovim setup, wallpaper, theme and unfinished branches to myself
-
-* is it advanced?
-    * no it's not, as I'm not a very advanced linux user. this guide will mostly help out if you happen to be completely stuck on something simple, like getting steam to run and get rid of that pesky can't find `libc.so.6` issue
-</details>
+* for the most part, this setup should be self explanatory, read the titles
 
 ## titles with links:
 <details>
