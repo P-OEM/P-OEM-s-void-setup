@@ -23,12 +23,14 @@
 <details>
 <summary>General setup README file links</summary>
 
+## [General solutions to issues](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/general-solutions)
 ## [Launcher setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/launcher)
 </details>
 
 <details>
 <summary>Specific tool setup README file links</summary>
 
+## [AppArmor setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/apparmor?tab=readme-ov-file)
 ## [Brightnessctl default screenbrightness setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
 ## [Bluetooth setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/bluetooth)
 ## [Themes setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/themes)
