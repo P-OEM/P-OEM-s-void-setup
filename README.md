@@ -32,7 +32,7 @@
 </details>
 
 ## titles with links:
-<details open> 
+<details>
 <summary>Local branch titles</summary>
 
 ## [xfce desktop environment settings](#xfce-settings)
