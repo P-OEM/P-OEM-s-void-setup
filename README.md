@@ -8,7 +8,7 @@
 * I've been using the `xfce` `glibc` version of Void linux, and this setup is shaped around that
     * that doesn't mean that some of the solutions can't be applied to other systems to, but they may not work
 
-* for the most part, this setup should be self explanatory, read the titles
+* for the most part this setup should be self explanatory, read the titles
 
 ## titles with links:
 <details>
