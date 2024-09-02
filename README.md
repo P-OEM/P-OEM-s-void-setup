@@ -170,7 +170,7 @@
 * libreoffice-calc
 * libreoffice-math
 * libreoffice-base
-* libreoffice-i18n-en
+* libreoffice-i18n-en-US
 * libreoffice-i18n-nb
 </details>
 
@@ -199,7 +199,6 @@
 * curl
 * neovim
 * gcc
-* g++
 * make
 * cmake
 * ruby
