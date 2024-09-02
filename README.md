@@ -97,8 +97,6 @@
 * Devices
     * Touchpad
         * Tap touchpad to click = off
-* Theme
-    * ArcAurora Cursors (require pointer theme)
 </details>
 
 <details>
