@@ -42,7 +42,8 @@
 <details>
 <summary>Tools</summary>
 
-* Autocorrect Options...
-    * Word Completion
-        * Accept with: = Tab
+* Autocorrect
+   * Autocorrect Options...
+       * Word Completion
+           * Accept with: = Tab
 </details>
