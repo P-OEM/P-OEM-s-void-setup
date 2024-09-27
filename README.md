@@ -41,7 +41,7 @@
 ## [Discord setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/discord)
 ## [Skype setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/skype)
 ## [Veloren setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/veloren)
-## [Steam](#)
+## [Steam](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/steam)
 * [Proton list](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/proton)
 </details>
 
