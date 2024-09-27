@@ -5,8 +5,9 @@
 #### this branch contains lists for Steam games and Proton settings
 
 ## [Proton introduction](#introduction)
-## [Proton Force use tool list](#force-use-tool-list)
-## [Proton works put of the box list](#works-put-of-the-proton-list)
+## [Proton force use tool list](#force-use-tool-list)
+## [Proton works out of the Proton list](#works-out-of-the-proton-list)
+## [Proton native linux environment explorers list](#native-linux-environment-explorer-list)
 
 ## Introduction
 * Proton is pretty much Wine for Steam
