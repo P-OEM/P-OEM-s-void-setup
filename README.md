@@ -7,7 +7,7 @@
 ## [Proton introduction](#introduction)
 ## [Proton force use tool list](#force-use-tool-list)
 ## [Proton works out of the Proton list](#works-out-of-the-proton-list)
-## [Proton native linux environment explorers list](#native-linux-environment-explorer-list)
+## [Proton native linux environment explorers list](#native-linux-environment-explorers-list)
 
 ## Introduction
 * Proton is pretty much Wine for Steam
