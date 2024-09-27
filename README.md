@@ -41,6 +41,8 @@
 ## [Discord setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/discord)
 ## [Skype setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/skype)
 ## [Veloren setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/veloren)
+## [Steam](#)
+* [Proton list](#)
 </details>
 
 ## xfce settings
@@ -237,7 +239,8 @@
 * libdrm-32bit
 * libglvnd-32bit
 * mesa-dri-32bit
-### more information ([here](https://wiki.voidlinux.org/voidlinux_en_all_2021-04/A/Steam))
+### more information from video ([here](https://youtu.be/QhOr5ucywtU))
+* the original page wiki page is no longer available
 </details>
 
 ## npm packages
