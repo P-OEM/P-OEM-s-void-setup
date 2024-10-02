@@ -14,7 +14,7 @@
 
 * for now this guide only covers how to deal with local credentials
 
-## global-config-setup
+## Global config setup
 * `git config --global user.name "your username"`
 * `git config --global user.email youremail@email.com`
 * this will delete the password after some time
