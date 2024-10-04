@@ -1,4 +1,4 @@
-# gamingtruble's void linux setup
+# P-OEM's void linux setup
 
 ## About this setup
 * it is a public version of my personal setup, meaning that it's not the same, but it contains a lot of smaller installation guides, and packages I've installed to shape my system to my needs
