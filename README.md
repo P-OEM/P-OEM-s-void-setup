@@ -32,6 +32,7 @@
 * Secrets of Grindea
     * Proton version
         * 4.2-9
+           * you must start saved game twice to see UI elements
 * The Elder Scrolls V: Skyrim
     * Proton version
         * 3.7-8
