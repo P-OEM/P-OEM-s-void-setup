@@ -1,4 +1,4 @@
-### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup)
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup)
 
 # Git setup
 ## this branch contains a simple guide for setting up git on a void linux system, using glibc and xfce
