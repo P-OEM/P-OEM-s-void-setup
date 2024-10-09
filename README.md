@@ -92,6 +92,9 @@
     * Background
         * Transparent Background
             * Opacity = 0.70
+* Advanced
+    * Shortcuts
+        * Disable menu shortcut key (F10 by default) = on
 </details>
 
 <details>
