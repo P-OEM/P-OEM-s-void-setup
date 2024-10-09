@@ -1,4 +1,4 @@
-### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/main)
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup/tree/main)
 
 # Discord setup
 ### this branch contains a simple guide for setting up discord in a void linux system with the xfce desktop environment
@@ -11,7 +11,7 @@
 ## About this guide
 * it is expected that the packages for ziping and unziping are installed before following the steps in this part of the void linux setup
 * the terminal is not needed for this guide
-* if you want to make a launcher, you can do the unzip part of this guide, then go to the [launcher](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/launcher) branch
+* if you want to make a launcher, you can do the unzip part of this guide, then go to the [launcher](https://github.com/P-OEM/P-OEM-s-void-setup/tree/launcher) branch
 
 ## Download tarball
 * to install discord on the void linux system, you can grab the tarball download from the official [discord website's](https://discord.com/download) download section
