@@ -1,4 +1,4 @@
-### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/main)
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup/tree/main)
 
 # Thunderbird setup
 ### this branch contains a simple guide for setting up thunderbird in a xfce, void linux system, with my preferences
