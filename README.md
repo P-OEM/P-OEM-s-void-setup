@@ -1,4 +1,4 @@
-### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup)
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup)
 
 # Steam
 #### this branch contains a Steam specific solutions
@@ -18,4 +18,4 @@
     * wine is 'wine is not an emulator'...
         * it helps you run windows specific software, search it up XD
 * anyway, here's a list covering my personal proton setup for games I play
-    * [proton list](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/proton)
+    * [proton list](https://github.com/P-OEM/P-OEM-s-void-setup/tree/proton)
