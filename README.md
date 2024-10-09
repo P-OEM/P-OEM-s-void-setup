@@ -115,6 +115,8 @@
 
 * sl
 * cmatrix
+* cowsay
+* fortune-mod
 </details>
 
 <details>
@@ -132,6 +134,7 @@
 * ttf-ubuntu-font-family
 * gnome-disk-utility
 * galculator
+* nvtop
 </details>
 
 <details>
@@ -147,6 +150,30 @@
 * xarchiver
 * unzip
 * xz
+</details>
+
+<details>
+<summary>programming packages</summary>
+
+* git
+* github-cli
+* curl
+* neovim
+* gcc
+* make
+* cmake
+* ruby
+* ruby-devel
+* pnpm
+* docker
+</details>
+
+<details>
+<summary>Language servers</summary>
+
+* clang
+* clang-tools-extra
+* lua-language-server
 </details>
 
 <details>
@@ -176,9 +203,15 @@
 </details>
 
 <details>
+<summary>cloud storage</summary>
+
+* dropbox (run `dropbox update` in terminal after install)
+</details>
+
+<details>
 <summary>graphics packages</summary>
 
-* mesa-vulkan-intel (works for cpu graphics)
+* mesa-vulkan-intel (works for intel cpu graphics)
 * mesa-vulkan-radeon (works for amd graphics card)
 * gimp
 * blender
@@ -190,29 +223,6 @@
 <summary>book library packages</summary>
 
 * calibre
-</details>
-
-<details>
-<summary>programming packages</summary>
-
-* git
-* github-cli
-* curl
-* neovim
-* gcc
-* make
-* cmake
-* ruby
-* ruby-devel
-* pnpm
-</details>
-
-<details>
-<summary>Language servers</summary>
-
-* clang
-* clang-tools-extra
-* lua-language-server
 </details>
 
 <details>
