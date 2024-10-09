@@ -1,4 +1,4 @@
-### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup)
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup)
 
 # LibreOffice
 ### this branch contains a collection of settings I prefer to use with libreOffice
