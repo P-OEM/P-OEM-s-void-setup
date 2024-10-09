@@ -1,4 +1,4 @@
-### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup)
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup)
 
 # Neovim setup
 ### this branch contains two links for neovim learning
