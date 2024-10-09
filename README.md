@@ -1,4 +1,4 @@
-### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/main)
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup/tree/main)
 
 # Launcher setup
 ### this branch contains a simple guide for setting up a launcher for applications in a void linux system with the xfce desktop environment
