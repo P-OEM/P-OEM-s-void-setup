@@ -23,27 +23,27 @@
 <details>
 <summary>General setup README file links</summary>
 
-## [General solutions to issues](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/general-solutions)
-## [Launcher setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/launcher)
+## [General solutions to issues](https://github.com/P-OEM/P-OEM-s-void-setup/tree/general-solutions)
+## [Launcher setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/launcher)
 </details>
 
 <details>
 <summary>Specific tool setup README file links</summary>
 
-## [Git setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/git)
-## [AppArmor setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/apparmor?tab=readme-ov-file)
-## [Brightnessctl default screenbrightness setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
-## [Bluetooth setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/bluetooth)
-## [Themes setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/themes)
-## [Background image setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/background-image)
-## [Neovim setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/neovim)
-## [LibreOffice setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/libreoffice)
-## [Thunderbird setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/thunderbird)
-## [Discord setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/discord)
-## [Skype setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/skype)
-## [Veloren setup](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/veloren)
-## [Steam](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/steam)
-* [Proton list](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/proton)
+## [Git setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/git)
+## [AppArmor setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/apparmor?tab=readme-ov-file)
+## [Brightnessctl default screenbrightness setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
+## [Bluetooth setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/bluetooth)
+## [Themes setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/themes)
+## [Background image setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/background-image)
+## [Neovim setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/neovim)
+## [LibreOffice setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/libreoffice)
+## [Thunderbird setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/thunderbird)
+## [Discord setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/discord)
+## [Skype setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/skype)
+## [Veloren setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/veloren)
+## [Steam](https://github.com/P-OEM/P-OEM-s-void-setup/tree/steam)
+* [Proton list](https://github.com/P-OEM/P-OEM-s-void-setup/tree/proton)
 </details>
 
 ## xfce settings
