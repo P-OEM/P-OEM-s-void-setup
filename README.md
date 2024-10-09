@@ -1,4 +1,4 @@
-### [Main branch](https://github.com/gamingtruble/gamingtruble-s-void-setup/tree/main)
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup/tree/main)
 
 # Themes
 ### this branch contains a simple guide for adding themes to a xfce4 desktop environment
