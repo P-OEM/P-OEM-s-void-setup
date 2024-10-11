@@ -170,6 +170,7 @@
 * ruby-devel
 * pnpm
 * docker
+* vscode
 </details>
 
 <details>
