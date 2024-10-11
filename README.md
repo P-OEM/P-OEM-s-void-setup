@@ -32,7 +32,6 @@
 <details>
 
 ### [Terminal: left something sensitive in the log](#clear-bash-cache)
-### [Thunderbird: keeps closing when I try to look at email](#move-folder-to-gain-space)
 ### [Workspace: not starting into the first workspace](#clear-session-cache)
 </details>
 
@@ -40,7 +39,6 @@
 <details>
 
 ### [Solutions terminal](#terminal)
-### [Solutions thunderbird](#thunderbird)
 ### [Solutions xfwm4](#xfwm4)
 </details>
 
@@ -48,14 +46,6 @@
 ### clear bash cache
 * in your home directory run
     * `rm .bash_history`
-
-## thunderbird
-### move folder to gain space
-* in you home directory, find `.thunderbird`
-    * move the directory to another directory and back
-        * source? trust me bro XD
-            * I forget exactly how folder (directory) space work in linux, but I think linux determine this whenever you make one or download something
-                * this fix should simply make linux reconsider the amount of space your thunderbird directory needs, by manualy moving it so that the system must do the calculation again
 
 ## xfwm4
 ### clear session cache
