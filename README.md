@@ -171,6 +171,7 @@
 * ruby-devel
 * pnpm
 * docker
+* docker-compose
 * vscode
 </details>
 
