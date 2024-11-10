@@ -17,7 +17,7 @@
 ## Download tarball
 * to install vesktop on the void linux system, you can grab the tarball download from the official [vesktop repository](https://github.com/Vencord/Vesktop?tab=readme-ov-file) under the download section
   * you'll find this under `amd64 / x86_64` heading, then then the `tarball` text that will download it once clicked
-   * do this unless you use an `ARM` system, in that case look at the section under
+    * do this unless you use an `ARM` system, in that case look at the section under
 
 ## Unzip
 * now that the tarball is downloaded, I would recommend moving it to the home folder of your user (~). You can then unzip it either through the terminal (tar.gz), or by right clicking it and click on unzip in the menu.
