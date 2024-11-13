@@ -36,3 +36,5 @@ sudo usermod -aG docker $USER
 ```
 * now you can either log in and out, or run
 ```sh
+newgrp docker
+```
