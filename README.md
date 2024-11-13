@@ -21,3 +21,18 @@ sudo ln -s /etc/sv/containerd /var/service
 ```sh
 sudo ln -s /etc/sv/docker /var/service
 `````
+## Add user to docker group
+* normally you have to use sudo to run docker commands
+    * to avoid this issue you can add your user to the docker group
+* the group should already exist
+    * if it doesn't, run
+```sh
+sudo groupadd docker
+```
+* to add your user to the group, run
+
+```sh
+sudo usermod -aG docker $USER
+```
+* now you can either log in and out, or run
+```sh
