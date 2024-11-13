@@ -38,3 +38,5 @@ sudo usermod -aG docker $USER
 ```sh
 newgrp docker
 ```
+
+* for more information on this, you can go [here](https://docs.docker.com/engine/install/linux-postinstall/)
