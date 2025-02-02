@@ -116,7 +116,7 @@
 
 ## xbps packages
 <details>
-<summary>funny packages</summary>
+<summary>funny</summary>
 
 * sl
 * cmatrix
@@ -139,7 +139,6 @@
 * ttf-ubuntu-font-family
 * gnome-disk-utility
 * galculator
-* nvtop
 </details>
 
 <details>
@@ -149,7 +148,7 @@
 </details>
 
 <details>
-<summary>zip packages</summary>
+<summary>zip</summary>
 
 * thunar-archive-plugin
 * xarchiver
@@ -158,7 +157,7 @@
 </details>
 
 <details>
-<summary>programming packages</summary>
+<summary>programming</summary>
 
 * git
 * github-cli
@@ -184,7 +183,7 @@
 </details>
 
 <details>
-<summary>bluetooth packages</summary>
+<summary>bluetooth</summary>
 
 * bluez
 * blueman
@@ -197,7 +196,7 @@
 </details>
 
 <details>
-<summary>office packages</summary>
+<summary>office</summary>
 
 * libreoffice
 * libreoffice-writer
@@ -216,10 +215,15 @@
 </details>
 
 <details>
-<summary>graphics packages</summary>
+<summary>graphics</summary>
 
-* mesa-vulkan-intel (works for intel cpu graphics)
-* mesa-vulkan-radeon (works for amd graphics card)
+* vulkan-loader
+* mesa-vulkan-intel (driver, works for intel cpu graphics)
+* mesa-vulkan-radeon (driver, works for amd graphics card)
+* amdvlk (driver, open source amd graphics card, might not be ideal on older cards)
+* Vulkan-Tools
+* nvtop
+* glmark2
 * gimp
 * blender
 * krita
@@ -227,7 +231,7 @@
 </details>
 
 <details>
-<summary>book library packages</summary>
+<summary>book library</summary>
 
 * calibre
 </details>
