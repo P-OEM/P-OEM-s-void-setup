@@ -53,6 +53,10 @@
 <details>
 <summary>Appearance</summary>
 
+* Style  
+    * Fantasma-Solid (require theme)
+* Icons
+    * candy-icons (require icon themes)
 * Fonts   
     * Sans Regular
         * Size = 11
@@ -61,7 +65,15 @@
 </details>
 
 <details>
-<summary>WindowManager</summary>
+<summary>Panel</summary>
+
+* Items
+    * Workspace Switcher
+        * Switch workspaces using the mouse wheel = off
+</details>
+
+<details>
+<summary>Window Manager</summary>
 
 * Keyboard
     * Maximize window = f11
@@ -79,7 +91,7 @@
 </details>
 
 <details>
-<summary>WindowManager Tweaks</summary>
+<summary>Window Manager Tweaks</summary>
 
 * Accessibility
     * Automatically tile windows when moving toward the screen edge = on
@@ -97,6 +109,7 @@
 * Advanced
     * Shortcuts
         * Disable menu shortcut key (F10 by default) = on
+
 </details>
 
 <details>
@@ -105,6 +118,8 @@
 * Devices
     * Touchpad
         * Tap touchpad to click = off
+* Theme
+    * ArcAurora Cursors (require pointer theme)
 </details>
 
 <details>
