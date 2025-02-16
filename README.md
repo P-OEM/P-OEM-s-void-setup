@@ -53,10 +53,6 @@
 <details>
 <summary>Appearance</summary>
 
-* Style  
-    * Fantasma-Solid (require theme)
-* Icons
-    * candy-icons (require icon themes)
 * Fonts   
     * Sans Regular
         * Size = 11
@@ -109,7 +105,6 @@
 * Advanced
     * Shortcuts
         * Disable menu shortcut key (F10 by default) = on
-
 </details>
 
 <details>
@@ -118,8 +113,6 @@
 * Devices
     * Touchpad
         * Tap touchpad to click = off
-* Theme
-    * ArcAurora Cursors (require pointer theme)
 </details>
 
 <details>
