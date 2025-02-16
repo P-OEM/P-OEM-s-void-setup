@@ -31,6 +31,7 @@
 <summary>Specific tool setup README file links</summary>
 
 ## [Git setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/git)
+## [Date and time setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/date-and-time)
 ## [AppArmor setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/apparmor?tab=readme-ov-file)
 ## [Brightnessctl default screenbrightness setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
 ## [Bluetooth setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/bluetooth)
