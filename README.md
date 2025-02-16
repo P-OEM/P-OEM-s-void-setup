@@ -45,6 +45,7 @@
 ## [Discord setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/discord)
 ## [Skype setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/skype)
 ## [Docker setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/docker)
+## [PlatformIO setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/platformio)
 ## [Veloren setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/veloren)
 ## [Steam](https://github.com/P-OEM/P-OEM-s-void-setup/tree/steam)
 * [Proton list](https://github.com/P-OEM/P-OEM-s-void-setup/tree/proton)
