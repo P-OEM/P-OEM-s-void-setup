@@ -35,6 +35,7 @@
 ## [AppArmor setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/apparmor?tab=readme-ov-file)
 ## [Brightnessctl default screenbrightness setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
 ## [Bluetooth setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/bluetooth)
+## [GNOME keyring setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/gnome-keyring)
 ## [Themes setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/themes)
 ## [Background image setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/background-image)
 ## [Neovim setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/neovim)
