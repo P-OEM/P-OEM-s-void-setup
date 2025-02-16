@@ -133,7 +133,7 @@
 * xkill
 * brightnessctl
 * xreader (document viewer, pdf)
-* screenFetch
+* fastfetch
 * xfce4-screenshooter
 * noto-fonts-emoji
 * ttf-ubuntu-font-family
@@ -145,6 +145,7 @@
 <summary>security</summary>
 
 * apparmor
+* gnome-keyring
 </details>
 
 <details>
@@ -227,6 +228,7 @@
 * gimp
 * blender
 * krita
+* obs
 * kdenlive
 </details>
 
@@ -237,9 +239,19 @@
 </details>
 
 <details>
+<summary>online video tools</summary>
+
+* clipgrab (gui downloader)
+* yt-dlp (cli downloader)
+* pipe-viewer (watch and download videos)
+* mpv (needed for pipe-viewer)
+</details>
+
+<details>
 <summary>voice chat</summary>
 
 * skype
+* Signal-Desktop
 </details>
 
 <details>
@@ -273,7 +285,13 @@
 <summary>Typescript Language Server</summary>
 
 
-* `sudo npm install -g typescript-language-server typescript`
+* `sudo npm i -g typescript-language-server typescript`
+</details>
+
+<details>
+<summary>ascii map</summary>
+
+* `sudo npm i -g mapscii`
 </details>
 
 ## gem packages
