@@ -21,30 +21,51 @@
     * Native linux environment explorers list
         * a list of games that don't need Proton for running on linux
 
-
 ## Force use tool list
-* Sonic Lost World
+* Legacy of Kain: Soul Reaver
     * Proton version
-        * 3.7-8
-* Sonic Mania
-    * Proton version
-        * 3.7-8
+        * `3.16-9`
 * Secrets of Grindea
     * Proton version
-        * 4.2-9
-           * you must start saved game twice to see UI elements
+        * `4.2-9`
+* Sonic Lost World
+    * Proton version
+        * `3.7-8`
+* Sonic Mania
+    * Proton version
+        * `3.7-8`
+* Super Monkey Ball: Banana Blitz HD
+    * Proton version
+        * `4.11-13`
 * The Elder Scrolls V: Skyrim
     * Proton version
-        * 3.7-8
+        * `3.7-8`
+* AdventureQuest 3D
+    * Proton version
+        * `5.13-6`
 
 ## Works out of the Proton list
 * Baldur's Gate 3
+* BattleBlock Theater
+* Bloons TD 6
+* Cube World
+* Mecha Simultactics Alpha
+* Spark the Electric Jester 3
+* Windscape
+* Worms Armageddon
+* Worms Reloaded
+* Worms Ultimate Mayhem
 
 ## Native linux environment explorers list
 * Darkest Dungeon
+* Deponia: The Complete Journey
+* Don't starve Together
+* Dota 2
 * Enter The Gungeon
+* Factorio
 * Guns of Icarus Allience
 * Guns of Icarus Online
 * Pixel Dungeon
 * Staxel
 * Tiny Glade
+* Your Only Move Is HUSTLE
