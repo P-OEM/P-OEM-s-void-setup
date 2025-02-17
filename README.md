@@ -10,44 +10,42 @@
 
 * for the most part this setup should be self explanatory, read the titles
 
-## titles with links:
-<details>
-<summary>Local branch titles</summary>
+## Page links:
+### [smaller setup pages](#smaller-pages)
+### [xfce desktop environment settings](#xfce-settings)
+### [xbps package manager packages](#xbps-packages)
+### [npm package manager packages](#npm-packages)
+### [gem package manager packages](#gem-packages)
 
-## [xfce desktop environment settings](#xfce-settings)
-## [xbps package manager packages](#xbps-packages)
-## [npm package manager packages](#npm-packages)
-## [gem package manager packages](#gem-packages)
-</details>
-
+## Smaller pages
 <details>
 <summary>General setup README file links</summary>
 
-## [General solutions to issues](https://github.com/P-OEM/P-OEM-s-void-setup/tree/general-solutions)
-## [Launcher setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/launcher)
+### [General solutions to issues](https://github.com/P-OEM/P-OEM-s-void-setup/tree/general-solutions)
+### [Launcher setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/launcher)
 </details>
 
 <details>
 <summary>Specific tool setup README file links</summary>
 
-## [Git setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/git)
-## [Date and time setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/date-and-time)
-## [AppArmor setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/apparmor?tab=readme-ov-file)
-## [Brightnessctl default screenbrightness setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
-## [Bluetooth setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/bluetooth)
-## [GNOME keyring setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/gnome-keyring)
-## [Themes setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/themes)
-## [Background image setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/background-image)
-## [Neovim setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/neovim)
-## [LibreOffice setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/libreoffice)
-## [Thunderbird setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/thunderbird)
-## [Vesktop setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/vesktop)
-## [Discord setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/discord)
-## [Skype setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/skype)
-## [Docker setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/docker)
-## [PlatformIO setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/platformio)
-## [Veloren setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/veloren)
-## [Steam](https://github.com/P-OEM/P-OEM-s-void-setup/tree/steam)
+### [Git setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/git)
+### [Date and time setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/date-and-time)
+### [AppArmor setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/apparmor?tab=readme-ov-file)
+### [Brightnessctl default screenbrightness setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
+### [Bluetooth setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/bluetooth)
+### [GNOME keyring setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/gnome-keyring)
+### [Themes setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/themes)
+### [Background image setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/background-image)
+### [Neovim setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/neovim)
+### [LibreOffice setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/libreoffice)
+### [Thunderbird setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/thunderbird)
+### [Vesktop setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/vesktop)
+### [Discord setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/discord)
+### [Skype setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/skype)
+### [Docker setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/docker)
+### [PlatformIO setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/platformio)
+### [Veloren setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/veloren)
+### [Steam](https://github.com/P-OEM/P-OEM-s-void-setup/tree/steam)
 * [Proton list](https://github.com/P-OEM/P-OEM-s-void-setup/tree/proton)
 </details>
 
