@@ -23,7 +23,7 @@
             ```
     * then add these lines and replace `"en"` with your keyboards language:
         ```sh
-        ection "InputClass"
+        Section "InputClass"
             Identifier "system-keyboard"
             MatchIsKeyboard "on"
             Option "XkbLayout" "en"  # set language for keyboard before login (en, fr, de)
