@@ -42,7 +42,6 @@
 ### [Thunderbird setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/thunderbird)
 ### [Vesktop setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/vesktop)
 ### [Discord setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/discord)
-### [Skype setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/skype)
 ### [Docker setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/docker)
 ### [PlatformIO setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/platformio)
 ### [Veloren setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/veloren)
@@ -260,7 +259,6 @@
 <details>
 <summary>voice chat</summary>
 
-* skype
 * Signal-Desktop
 </details>
 
