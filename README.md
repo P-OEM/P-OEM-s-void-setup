@@ -40,6 +40,7 @@
 ### [Neovim setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/neovim)
 ### [LibreOffice setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/libreoffice)
 ### [Thunderbird setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/thunderbird)
+### [Signal setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/signal)
 ### [Vesktop setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/vesktop)
 ### [Discord setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/discord)
 ### [Docker setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/docker)
