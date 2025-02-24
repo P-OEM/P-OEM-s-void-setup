@@ -144,7 +144,6 @@
 * xreader (document viewer, pdf)
 * fastfetch
 * xfce4-screenshooter
-* noto-fonts-emoji
 * ttf-ubuntu-font-family
 * gnome-disk-utility
 * galculator
