@@ -215,7 +215,6 @@
 * libreoffice-math
 * libreoffice-base
 * libreoffice-i18n-en-US
-* libreoffice-i18n-nb
 </details>
 
 <details>
