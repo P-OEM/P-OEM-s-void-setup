@@ -5,7 +5,7 @@
 ### this branch contain a simple guide for setting up a network time protocol with chrony on a void linux system
 
 ## [Date and time setup introduction](#introduction)
-## [Date and time setup installing and using the package](#installing-and-using-the-package)
+## [Date and time setup using the chrony package](#using-the-chrony-package)
 ## [Date and time setup syncronise hardware clock](#syncronise-hardware-clock)
 
 ## Introduction
@@ -17,18 +17,14 @@
         * the hardware clock can be syncronise with chrony or other ntp protocols
 * for more options, and information see the official void linux documentation for it [here](https://docs.voidlinux.org/config/date-time.html)
 
-## installing and using the package
-* to install chrony run:
-```sh
-sudo xbps-install -S chrony 
-```
+## Using the chrony package
 * to activate the chrony daemon (background service), run:
 ```sh
 sudo ln -s /etc/sv/chronyd /var/service
 ```
 * then reboot
 
-## syncronise hardware clock
+## Syncronise hardware clock
 * to syncronise hardware clock open `/etc/rc.conf` as super user with text editor of your choice
     * example:
     ```
