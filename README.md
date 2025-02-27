@@ -9,8 +9,12 @@
 ## About this guide
 * it is expected that the packages for `Signal-Desktop` installed before following this guide
 * for the most part signal just works, and guide the user through how to set it up
-    * this guide simply cover how to run it when loging into the system
-* source for some of this information... [Reddit](https://www.reddit.com/r/signal/comments/lcpo4e/protip_for_new_users_add_startintray_to_your/) XD
+    * this guide simply cover
+        * how to run it when loging into the system
+    * source for login information [Reddit](https://www.reddit.com/r/signal/comments/lcpo4e/protip_for_new_users_add_startintray_to_your/) XD
+* some extra security
+    * [YouTube](https://youtu.be/DPjg3651oJM)
+    * [Signal Configuration and Hardening Guide](https://www.privacyguides.org/articles/2022/07/07/signal-configuration-and-hardening/) (this guide is not mine)
 
 ## Start on login
 * go to
@@ -40,7 +44,7 @@
 * options
     * you can add ` --start-in-tray` to the end of the command to make signal start as an icon on your menu bar
     * you can add ` --use-tray-icon` to the end of the command to make signal start as a window with an icon on your menu bar
-    * you can also set these as settings from
+    * you can also add similar settings within signal from:
         * `File`
             * `Preferences…`
                 * `General`
