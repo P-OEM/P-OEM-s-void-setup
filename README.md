@@ -155,6 +155,7 @@
 
 * apparmor
 * gnome-keyring
+* keepassxc
 </details>
 
 <details>
