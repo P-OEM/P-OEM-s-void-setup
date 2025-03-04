@@ -159,6 +159,12 @@
 </details>
 
 <details>
+<summary>power</summary>
+
+* tlp
+</details>
+
+<details>
 <summary>zip</summary>
 
 * thunar-archive-plugin
