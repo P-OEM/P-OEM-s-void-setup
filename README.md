@@ -140,28 +140,12 @@
 * void-repo-nonfree (allow nonfree packages on the system, needed for steam)
 * void-repo-multilib (add 32 bit packages, needed for steam)
 * bash-completion
-* xkill
-* brightnessctl
 * xreader (document viewer, pdf)
 * fastfetch
 * xfce4-screenshooter
 * ttf-ubuntu-font-family
-* gnome-disk-utility
 * galculator
-</details>
-
-<details>
-<summary>security</summary>
-
-* apparmor
-* gnome-keyring
-* keepassxc
-</details>
-
-<details>
-<summary>power</summary>
-
-* tlp
+* powerline-go
 </details>
 
 <details>
@@ -174,29 +158,22 @@
 </details>
 
 <details>
-<summary>programming</summary>
+<summary>security</summary>
 
-* git
-* github-cli
-* curl
-* neovim
-* gcc
-* make
-* cmake
-* ruby
-* ruby-devel
-* pnpm
-* docker
-* docker-compose
-* vscode
+* apparmor
+* gnome-keyring
+* keepassxc
 </details>
 
 <details>
-<summary>Language servers</summary>
+<summary>graphics</summary>
 
-* clang
-* clang-tools-extra
-* lua-language-server
+* vulkan-loader
+* mesa-vulkan-intel (driver, works for intel cpu graphics)
+* mesa-vulkan-radeon (driver, works for amd graphics card)
+* amdvlk (driver, open source amd graphics card, might not be ideal on older cards)
+* Vulkan-Tools
+* glmark2
 </details>
 
 <details>
@@ -207,9 +184,46 @@
 </details>
 
 <details>
-<summary>e-mail</summary>
+<summary>system tools</summary>
 
-* thunderbird
+* xkill
+* brightnessctl
+* tlp
+</details>
+
+<details>
+<summary>system monitoring</summary>
+
+* btop
+* nvtop
+* gnome-disk-utility
+</details>
+
+<details>
+<summary>programming</summary>
+
+* gcc
+* make
+* cmake
+* go
+* ruby
+* ruby-devel
+* pnpm
+* git
+* github-cli
+* curl
+* neovim
+* vscode
+* docker
+* docker-compose
+</details>
+
+<details>
+<summary>Language servers</summary>
+
+* clang
+* clang-tools-extra
+* lua-language-server
 </details>
 
 <details>
@@ -222,6 +236,36 @@
 * libreoffice-math
 * libreoffice-base
 * libreoffice-i18n-en-US
+* libreoffice-i18n-nb
+</details>
+
+<details>
+<summary>e-mail</summary>
+
+* thunderbird
+</details>
+
+<details>
+<summary>voice chat</summary>
+
+* Signal-Desktop
+</details>
+
+<details>
+<summary>books</summary>
+
+* calibre
+</details>
+
+<details>
+<summary>media</summary>
+
+* obs
+* gimp
+* blender
+* krita
+* kdenlive
+* cheese
 </details>
 
 <details>
@@ -231,41 +275,12 @@
 </details>
 
 <details>
-<summary>graphics</summary>
-
-* vulkan-loader
-* mesa-vulkan-intel (driver, works for intel cpu graphics)
-* mesa-vulkan-radeon (driver, works for amd graphics card)
-* amdvlk (driver, open source amd graphics card, might not be ideal on older cards)
-* Vulkan-Tools
-* nvtop
-* glmark2
-* gimp
-* blender
-* krita
-* obs
-* kdenlive
-</details>
-
-<details>
-<summary>book library</summary>
-
-* calibre
-</details>
-
-<details>
 <summary>online video tools</summary>
 
 * clipgrab (gui downloader)
 * yt-dlp (cli downloader)
 * pipe-viewer (watch and download videos)
 * mpv (needed for pipe-viewer)
-</details>
-
-<details>
-<summary>voice chat</summary>
-
-* Signal-Desktop
 </details>
 
 <details>
@@ -289,6 +304,12 @@
 * mesa-dri-32bit
 ### more information from video ([here](https://youtu.be/QhOr5ucywtU))
 * the original page wiki page is no longer available
+</details>
+
+<details>
+<summary>lutris</summary>
+
+* lutris
 </details>
 
 ## npm packages
