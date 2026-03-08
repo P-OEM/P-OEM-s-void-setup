@@ -32,6 +32,7 @@
 ### [Keyboard language](https://github.com/P-OEM/P-OEM-s-void-setup/tree/keyboard-language)
 ### [Date and time setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/date-and-time)
 ### [AppArmor setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/apparmor?tab=readme-ov-file)
+### [Firewall setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/nftables)
 ### [Brightnessctl default screenbrightness setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
 ### [Bluetooth setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/bluetooth)
 ### [GNOME keyring setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/gnome-keyring)
@@ -165,6 +166,8 @@
 * apparmor
 * gnome-keyring
 * keepassxc
+* nftables
+* runit-nftables
 </details>
 
 <details>
