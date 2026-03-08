@@ -1,344 +1,41 @@
-# P-OEM's void linux setup
-
-## About this setup
-* it is a public version of my personal setup, meaning that it's not the same, but it contains a lot of smaller installation guides, and packages I've installed to shape my system to my needs
-
-* this does not have an install guide (yet). for that I recomend the official installation guide [here](https://docs.voidlinux.org/installation/index.html) or this youtube video [here](https://youtu.be/wiP38mNXujE), the same youtuber have an installation guide for the `musl` library version as well
-
-* I've been using the `xfce` `glibc` version of Void linux, and this setup is shaped around that
-    * that doesn't mean that some of the solutions can't be applied to other systems to, but they may not work
-
-* for the most part this setup should be self explanatory, read the titles
-
-## Page links:
-### [smaller setup pages](#smaller-pages)
-### [xfce desktop environment settings](#xfce-settings)
-### [xbps package manager packages](#xbps-packages)
-### [npm package manager packages](#npm-packages)
-### [gem package manager packages](#gem-packages)
-
-## Smaller pages
-<details>
-<summary>General setup README file links</summary>
-
-### [General solutions to issues](https://github.com/P-OEM/P-OEM-s-void-setup/tree/general-solutions)
-### [Launcher setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/launcher)
-</details>
-
-<details>
-<summary>Specific tool setup README file links</summary>
-
-### [Git setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/git)
-### [Keyboard language](https://github.com/P-OEM/P-OEM-s-void-setup/tree/keyboard-language)
-### [Date and time setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/date-and-time)
-### [AppArmor setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/apparmor?tab=readme-ov-file)
-### [Brightnessctl default screenbrightness setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/brightnessctl-default-screenbrightness-setup)
-### [Bluetooth setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/bluetooth)
-### [GNOME keyring setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/gnome-keyring)
-### [Themes setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/themes)
-### [Background image setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/background-image)
-### [Neovim setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/neovim)
-### [LibreOffice setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/libreoffice)
-### [Thunderbird setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/thunderbird)
-### [Signal setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/signal)
-### [Vesktop setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/vesktop)
-### [Discord setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/discord)
-### [Docker setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/docker)
-### [PlatformIO setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/platformio)
-### [Veloren setup](https://github.com/P-OEM/P-OEM-s-void-setup/tree/veloren)
-### [Steam](https://github.com/P-OEM/P-OEM-s-void-setup/tree/steam)
-* [Proton list](https://github.com/P-OEM/P-OEM-s-void-setup/tree/proton)
-</details>
-
-## xfce settings
-### This section cover settings under settings manager, the settings are grouped under their category title
-<details>
-<summary>Appearance</summary>
-
-* Fonts   
-    * Sans Regular
-        * Size = 11
-    * Sans Monospace Regular
-        * Size = 11
-</details>
-
-<details>
-<summary>Panel</summary>
-
-* Items
-    * Workspace Switcher
-        * Switch workspaces using the mouse wheel = off
-</details>
-
-<details>
-<summary>Window Manager</summary>
-
-* Keyboard
-    * Maximize window = f11
-    * Toggle fullscreen = Ctrl+f11
-    * Move window to left workspace = Shift+Ctrl+Alt+Left
-    * Move window to right workspace = Shift+Ctrl+Alt+right
-    * Tile window to the top = Super+Up
-    * Tile window to the bottom = Super+Down
-    * Tile window to the left = Super+Left
-    * Tile window to the right = Super+Right
-    * Tile window to the top-left = Super+H
-    * Tile window to the top-right = Super+K
-    * Tile window to the bottom-left = Super+J
-    * Tile window to the bottom-right = Super+L
-</details>
-
-<details>
-<summary>Window Manager Tweaks</summary>
-
-* Accessibility
-    * Automatically tile windows when moving toward the screen edge = on
-</details>
-
-<details>
-<summary>Terminal Preferences</summary>
-
-* Appearance
-    * Font
-        * Terminus Bold 14
-    * Background
-        * Transparent Background
-            * Opacity = 0.70
-* Advanced
-    * Shortcuts
-        * Disable menu shortcut key (F10 by default) = on
-</details>
-
-<details>
-<summary>Mouse and Touchpad</summary>
-
-* Devices
-    * Touchpad
-        * Tap touchpad to click = off
-</details>
-
-<details>
-<summary>Keyboard</summary>
-
-* Application Shortcuts
-    * xkill = Ctrl+Escape
-</details>
-
-## xbps packages
-<details>
-<summary>funny</summary>
-
-* sl
-* cmatrix
-* cowsay
-* fortune-mod
-</details>
-
-<details>
-<summary>helpfull</summary>
-
-* void-repo-nonfree (allow nonfree packages on the system, needed for steam)
-* void-repo-multilib (add 32 bit packages, needed for steam)
-* bash-completion
-* xreader (document viewer, pdf)
-* fastfetch
-* xfce4-screenshooter
-* ttf-ubuntu-font-family
-* galculator
-* powerline-go
-</details>
-
-<details>
-<summary>zip</summary>
-
-* thunar-archive-plugin
-* xarchiver
-* unzip
-* xz
-</details>
-
-<details>
-<summary>security</summary>
-
-* apparmor
-* gnome-keyring
-* keepassxc
-</details>
-
-<details>
-<summary>graphics</summary>
-
-* vulkan-loader
-* mesa-vulkan-intel (driver, works for intel cpu graphics)
-* mesa-vulkan-radeon (driver, works for amd graphics card)
-* amdvlk (driver, open source amd graphics card, might not be ideal on older cards)
-* Vulkan-Tools
-* glmark2
-</details>
-
-<details>
-<summary>bluetooth</summary>
-
-* bluez
-* blueman
-</details>
-
-<details>
-<summary>system tools</summary>
-
-* xkill
-* brightnessctl
-* tlp
-</details>
-
-<details>
-<summary>system monitoring</summary>
-
-* btop
-* nvtop
-* gnome-disk-utility
-</details>
-
-<details>
-<summary>programming</summary>
-
-* gcc
-* make
-* cmake
-* go
-* ruby
-* ruby-devel
-* pnpm
-* git
-* github-cli
-* curl
-* neovim
-* vscode
-* docker
-* docker-compose
-</details>
-
-<details>
-<summary>Language servers</summary>
-
-* clang
-* clang-tools-extra
-* lua-language-server
-</details>
-
-<details>
-<summary>office</summary>
-
-* libreoffice
-* libreoffice-writer
-* libreoffice-impress
-* libreoffice-calc
-* libreoffice-math
-* libreoffice-base
-* libreoffice-i18n-en-US
-* libreoffice-i18n-nb
-</details>
-
-<details>
-<summary>e-mail</summary>
-
-* thunderbird
-</details>
-
-<details>
-<summary>voice chat</summary>
-
-* Signal-Desktop
-</details>
-
-<details>
-<summary>books</summary>
-
-* calibre
-</details>
-
-<details>
-<summary>media</summary>
-
-* obs
-* gimp
-* blender
-* krita
-* kdenlive
-* cheese
-</details>
-
-<details>
-<summary>cloud storage</summary>
-
-* dropbox (run `dropbox update` in terminal after install)
-</details>
-
-<details>
-<summary>online video tools</summary>
-
-* clipgrab (gui downloader)
-* yt-dlp (cli downloader)
-* pipe-viewer (watch and download videos)
-* mpv (needed for pipe-viewer)
-</details>
-
-<details>
-<summary>games</summary>
-
-* dwarffortress
-* minetest
-* supertux2
-* supertuxkart
-</details>
-
-<details>
-<summary>steam</summary>
-
-* steam
-### open source drivers (mesa drivers)
-* libgcc-32bit 
-* libstdc++-32bit
-* libdrm-32bit
-* libglvnd-32bit
-* mesa-dri-32bit
-### more information from video ([here](https://youtu.be/QhOr5ucywtU))
-* the original page wiki page is no longer available
-</details>
-
-<details>
-<summary>lutris</summary>
-
-* lutris
-</details>
-
-## npm packages
-* require npm package installed
-* for this package manager commands are shown
-
-<details>
-<summary>Typescript Language Server</summary>
-
-
-* `sudo npm i -g typescript-language-server typescript`
-</details>
-
-<details>
-<summary>ascii map</summary>
-
-* `sudo npm i -g mapscii`
-</details>
-
-## gem packages
-* require ruby and the ruby devel package installed (the ruby package contain the gem package as well)
-* for this package manager commands are shown
-
-<details>
-<summary>Ruby gem packages</summary>
-
-* `gem install solargraph` (ruby language server)
-</details>
-
-* after this installation, you probably need to add the user directory to the system path
-    * this can be done by piping an `echo` command of the path into your users home directory, then to `.bashr` like this
-        * `echo 'export PATH=$PATH:/add/the/path/that/the/installation/says/is/missing/from/the/path/here' >> ~/.bashrc`
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup/branches/yours)
+
+# Zotero setup
+### this branch contains a simple guide for setting up zotero in a void linux system with the xfce desktop environment
+
+## [Zotero about this guide](#about-this-guide)
+## [Zotero download tarball](#download-tarball)
+## [Zotero unzip](#unzip)
+## [Zotero shortcut](#shortcut)
+
+## About this guide
+* it is expected that the packages for ziping and unziping are installed before following the steps in this part of the void linux setup
+* zotero is a free tool to help you site sources.
+    * for more information I reccomend visiting their [site](https://www.zotero.org/)
+    * i also reccomend watching [this video](https://youtu.be/tnbwKj6-pD8?list=PLhLBstyv76b9rTqPsszF1NJh5uQv8xRB8) on youtube, if you need an introduction to setting up more, and using the program
+* the terminal is not needed for this guide
+* if you want to make a launcher, you can do the unzip part of this guide, then go to the [launcher](https://github.com/P-OEM/P-OEM-s-void-setup/tree/launcher) branch
+    * the launcher should contain:
+    ```cmd
+    [Desktop Entry]
+    Name=zotero
+    Path=/home/user
+    Exec=insert_unzipedfolder_name/zotero
+    Icon=zotero.ico
+    Type=Application
+    Categories=Office;
+    ```
+
+## Download tarball
+* to install Zotero on the void linux system, you can grab the tarball download from the official [Zotero website](https://www.zotero.org/) under the download section
+    * download the 64 bit version for linux
+
+## Unzip
+* now that the tarball is downloaded, I would recommend moving it to the home folder of your user (~). You can then unzip it either through the terminal (tar.gz), or by right clicking it and click on unzip in the menu.
+* after the unziping, opening Zotero should be as easy as double clicking on the file in the folder simply named `zotero.desktop`
+
+## Shortcut
+* to make a zotero shortcut press `Ctrl+Shift` then click and drag the icon for the `zotero.desktop` file to another location, and let go of the left mouse button
+* wherever you droped the icon you dragged, a new shortcut for zotero should appear
+* note that this shortcut cannot be added to a panel, for that you need a [launcher](https://github.com/P-OEM/P-OEM-s-void-setup/tree/launcher)
+    * maybe you could add this shortcut to the `/usr/share/applications` folder to use it as a launcher
