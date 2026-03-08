@@ -1,4 +1,4 @@
-### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup/branches/yours)
+### [Main branch](https://github.com/P-OEM/P-OEM-s-void-setup)
 
 # Zotero setup
 ### this branch contains a simple guide for setting up zotero in a void linux system with the xfce desktop environment
