@@ -20,6 +20,8 @@
         PS1="$(powerline-go \
             -error $? \
             -jobs $(jobs -p | wc -l) \
+            -cwd-max-depth 1 \
+            -condensed \
         )"
         }
 
