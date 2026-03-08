@@ -30,31 +30,30 @@
 * then save, and that's it
 
 ## GUI searchable setup
-* for now, both the shortcut and the launcher is not searchable
-* the launcher is a `.desktop` file on your desktop, and the way it is now, it could almost go straight to `/usr/share/applications` directory and work
+* for now, both the launcher is not searchable
+* the launcher is a `.desktop` file on your desktop, and the way it is now, it could almost go straight to `.local/share/applications` directory and work
 * to add the missing piece you need to
     * open the launcher file in a text editor (like mousepad)
     * go to the line with `Exec=`
     * remove everything on the path before `folder/MyProgram`
-* now the file is ready to be placed in the `/usr/share/applications` folder (directory)
+* now the file is ready to be placed in the `.local/share/applications` folder (directory)
     * steps to do this:
-        * start your file manager with root access
-            * in the terminal `sudo file-managers-name`
-        * then go to the top folder/ root directory
-        * then go to `/usr/share/applications`
-        * then cut or copy and paste the launcher application from desktop into `/usr/share/applications`
+        * open your users home folder in your file explorer of choice
+        * hit `ctrl + h` to show hidden files
+        * then go to `.local/share/applications`
+        * then cut or copy and paste the launcher application from desktop into `.local/share/applications`
         * then log the user out and back in again
         * then try to search and start the application (alt+f2 or f3 by default)
     * for this to work, it's crucial that the `Working Directory = /home/UserName` (this is `Path=/home/UserName` when opening with text editor) part is set correctly
 
 ## Terminal setup
 * start by picking your favourite terminal text edditing program (examples: vi, vim, nvim or nano) or decide on how you want to pipe the information directly to the file
-* then use sudo to add a `.desktop` file (example `MyApplication.desktop`) to `/usr/share/applications`
+* then use sudo to add a `.desktop` file (example `MyApplication.desktop`) to `~/.local/share/applications`
     * examples
         * text editor
-            * run `sudo vi /usr/share/applications/MyApplication.desktop` in the terminal
+            * run `vi ~/.local/share/applications/MyApplication.desktop` in the terminal
             * then add this to the file
-                ```cmd
+                ```sh
 				# comments start with "#"
 				[Desktop Entry]
 				Type=application
@@ -65,9 +64,6 @@
 				Path=/home/UserName
 				Categories=Game (can be something else like "Office")
 				```
-        * piping
-            * `su`
-                * `printf "[Desktop Entry]\nType=application\nName=My application\nComment=My application launcher\nExec=folder/MyApplication\nIcon=InsertIconPath\nPath=/home/UserName\nCategories=Game (can be something else like "Office")" > /usr/share/applications/MyApplication.desktop`
 
 * in both the examples:
     * make sure `Path` lead to the user home directory, and the `Exec` path from there to the application, make sure that this is the way you set it up
