@@ -26,4 +26,4 @@
 ## Shortcut
 * to make a vesktop shortcut press `Ctrl+Shift` then click and drag the icon for the `Vesktop` file to another location, and let go of the left mouse button
 * wherever you droped the icon you dragged, a new shortcut for vesktop should appear
-* note that this shortcut cannot be added to a panel, for that you need a launcher
+* note that this shortcut cannot be added to a panel, for that you need a [launcher](https://github.com/P-OEM/P-OEM-s-void-setup/tree/launcher)
