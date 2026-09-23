@@ -6,28 +6,55 @@
 
 ## [Bluetooth introduction](#introduction)
 ## [Bluez setup with Runit](#bluez-setup)
-## [Bluman start](#blueman)
-## [Blue-man do I have to do this part?](#disable-the-blueman-bluetooth-startup)
+## [Bluetooth rfkill unblocking](#unblock-bluetooth)
+## [Dbus setup](#dbus-service-setup)
+## [Audio device xbps packages](#audio-device-support)
+## [Bluman start](#blueman-setup)
+## [Blueman dissable on startup](#disable-the-blueman-bluetooth-startup)
 
 ## Introduction
-* there are some different alternatives available for setting up bluetooth on a void system, but in this guide, the tools will be `bluez` with `blueman`
+* it's expected that the `bluez`, `blueman`, and the `dbus` service packages are installed for this guide
     * `bluez`
         * `bluez` contain bluetooth tools and daemons
     * `blueman`
         * `blueman` is a bluetooth manager, that also work together with `bluez`
         * `blueman` bring a nice graphical interface for the user
-* for this guide it's expected that both blues package, and `blueman` package is installed
+        * `dbus` service, a message bus (handle data sent between programs)
 * here are two links for some resources
-    * here's a video from youtube for how to do this setup on an Arch system [youtube video](https://youtu.be/b329S-LFV0k)
-        * keep in mind that the path `/etc/runit/sv` will be `etc/sv` on the void system
-    * here is the link documenting the sv path [services and daemons](https://docs.voidlinux.org/config/services/index.html) (void documentation)
-        * look for the `Enabling Services` title
+    * you can find the official void linux bluetooth documentation [here](https://docs.voidlinux.org/config/bluetooth.html)
 
 ## Bluez setup
 * `bluez` come with a daemon that `Runit` (the init service), will have to start when the operating system starts
 * this can be done by linking it to the runsvdir
     * paste this into the terminal `ln -s /etc/sv/bluetoothd /etc/runit/runsvdir/default`
-## Blueman
+
+## Unblock bluetooth
+* make sure rfkill is not blocking bluetooth
+    * paste `rfkill` into terminal for block list
+    * paste `rfkill unblock bluetooth` to unblock bluetooth
+
+## dbus service setup
+* if dbus isn't installed and running you might have to either start it or set it up to run
+    * see if it's running (status is first word)
+        * `sudo sv status dbus`
+    * making it run
+        * `sudo sv up dbus`
+    * linking it to runsvdir to start with OS
+        * paste this into the terminal `ln -s /etc/sv/dbus /etc/runit/runsvdir/default`
+* add your user to the dbus group
+    * paste this into terminal, remember to change username to your users username
+        * `sudo usermod -aG bluetooth username`
+* I recommend restarting your system/ PC at this point
+
+## Audio device support
+* PipeWire support package
+    * `libspa-bluetooth`
+* ALSA support package
+    * `bluez-alsa`
+* PulseAudio
+    * no need for seperate packages
+
+## Blueman setup
 * blueman does not really need any setup
     * type:
         * `blueman-manager`
