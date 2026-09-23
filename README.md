@@ -9,6 +9,7 @@
 ## [Bluetooth rfkill unblocking](#unblock-bluetooth)
 ## [Dbus setup](#dbus-service-setup)
 ## [Audio device xbps packages](#audio-device-support)
+## [File sharing xbps package](#file-sharing-support)
 ## [Bluman start](#blueman-setup)
 ## [Blueman dissable on startup](#disable-the-blueman-bluetooth-startup)
 
@@ -53,6 +54,10 @@
     * `bluez-alsa`
 * PulseAudio
     * no need for seperate packages
+
+## File sharing support
+* Bluetooth tools and daemons - obex OBject EXchange package
+    * `bluez-obex`
 
 ## Blueman setup
 * blueman does not really need any setup
